@@ -121,11 +121,12 @@ While this example displays the sequence in upper case, the FASTA format does no
 In this step, you will login to the HPC and copy the contents of this project to your Work directory. 
 You should be in your computer's terminal to access the HPC and run commands. 
 How to access the terminal depends on your operating system, so review the Quick Start Guide to learn how [3].
-
+In the following, `[username]` is your TAMUCC user account name and `[hostname]` is the hostname (or IP address) of the TAMUCC HPC. 
+Note that having a TAMUCC account does not automatically give you an account on the HPC. Get in contact if you need one. 
 
 1. Login to the HPC
 
-		$ ssh [username]@-----------
+		$ ssh [username]@[hostname of HPC]
 		
 2. Navigate to your Work directory
 
@@ -133,7 +134,7 @@ How to access the terminal depends on your operating system, so review the Quick
 		
 3. Download this git repository to your Work directory
 
-		$ git clone https://gitlab.com/evankrell/HPC-DNA-tutorial.git
+		$ git clone https://github.com/ekrell/HPC-DNA-tutorial.git
 
 4. Enter project directory
 
